@@ -1,0 +1,42 @@
+extends layout
+
+block currentUrl
+    -var currentUrl = 'index'
+
+block content
+    .index
+        div.container-fluid
+            div.row
+                div#left.col-md-8
+                   p 左邊版面
+                div#right.col-md-4
+                    p#about About R&D
+                    p
+                    i.fa.fa-bars(aria-hidden='true')
+                    |  What R&D can do
+                    p R&D design
+                    p R&D knows
+                    p Choose R&D
+                    <br>
+                    <hr>
+                    p#subtitle R&D設計快速諮詢
+                    form.form-horizontal
+                        .form-group.form-group-sm
+                            label.col-sm-3.control-label(for='inputname') 姓名
+                            .col-sm-9
+                                input#inputname.form-control(type='text', placeholder='NAME')
+                        .form-group.form-group-sm
+                            label.col-sm-3.control-label(for='inputphone') 聯絡電話
+                            .col-sm-9
+                                input#inputphone.form-control(type='password', placeholder='PHONE')
+                        .form-group.form-group-sm
+                            label.col-sm-3.control-label(for='inputemail') E-mail
+                            .col-sm-9
+                                input#inputemail.form-control(type='EMAIL', placeholder='E-mail')
+                        .form-group.form-group-sm
+                            label.col-sm-3.control-label(for='content') 諮詢內容
+                            .col-sm-9
+                                textarea#content.form-control(rows='5', placeholder='content')
+                        .form-group.form-group-sm
+                            .col-sm-offset-2.col-sm-10
+                                button.btn.btn-default(type='submit') 快速諮詢
