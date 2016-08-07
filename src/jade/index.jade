@@ -8,35 +8,44 @@ block content
         div.container-fluid
             div.row
                 div#left.col-md-8
-                   p 左邊版面
+                   p.ltitle1 R&D
+                   P.ltitle2  網頁視覺設計
+                   p.contain
+                      | RWD 響應式網頁設計 <br>
+                      | 手機 平板 筆電 桌上型電腦<br>
+                      | 跨平台最佳呈現<br>
+                      | 客製化獨特企業形象<br>
+
                 div#right.col-md-4
-                    p#about About R&D
-                    p
+                    a#about About R&D <br>
+                    a
                     i.fa.fa-bars(aria-hidden='true')
-                    |  What R&D can do
-                    p R&D design
-                    p R&D knows
-                    p Choose R&D
+                    a  What R&D can do  <br>
+                    a R&D design<br>
+                    a R&D knows<br>
+                    a Choose R&D<br>
                     <br>
                     <hr>
-                    p#subtitle R&D設計快速諮詢
-                    form.form-horizontal
-                        .form-group.form-group-sm
-                            label.col-sm-3.control-label(for='inputname') 姓名
-                            .col-sm-9
-                                input#inputname.form-control(type='text', placeholder='NAME')
-                        .form-group.form-group-sm
-                            label.col-sm-3.control-label(for='inputphone') 聯絡電話
-                            .col-sm-9
-                                input#inputphone.form-control(type='password', placeholder='PHONE')
-                        .form-group.form-group-sm
-                            label.col-sm-3.control-label(for='inputemail') E-mail
-                            .col-sm-9
-                                input#inputemail.form-control(type='EMAIL', placeholder='E-mail')
-                        .form-group.form-group-sm
-                            label.col-sm-3.control-label(for='content') 諮詢內容
-                            .col-sm-9
-                                textarea#content.form-control(rows='5', placeholder='content')
-                        .form-group.form-group-sm
-                            .col-sm-offset-2.col-sm-10
-                                button.btn.btn-default(type='submit') 快速諮詢
+                    div.row
+                        div.col-sm-12
+                            p#subtitle R&D設計快速諮詢
+                            form.form-horizontal
+                                .form-group.form-group-sm
+                                    label.col-sm-3.control-label(for='inputname') 姓名
+                                    .col-sm-9
+                                        input#inputname.form-control(type='text', placeholder='NAME')
+                                .form-group.form-group-sm
+                                    label.col-sm-3.control-label(for='inputphone') 聯絡電話
+                                    .col-sm-9
+                                        input#inputphone.form-control(type='password', placeholder='PHONE')
+                                .form-group.form-group-sm
+                                    label.col-sm-3.control-label(for='inputemail') E-mail
+                                    .col-sm-9
+                                        input#inputemail.form-control(type='EMAIL', placeholder='E-mail')
+                                .form-group.form-group-sm
+                                    label.col-sm-3.control-label(for='content') 諮詢內容
+                                    .col-sm-9
+                                        textarea#content.form-control(rows='5', placeholder='content')
+                                .form-group.form-group-sm
+                                    .col-sm-offset-2.col-sm-10
+                                        button.btn.btn-default(type='submit') 快速諮詢

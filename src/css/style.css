@@ -3,9 +3,26 @@ div {
 }
 div.index div.container-fluid div.row div#left {
   color: #000;
-  text-align: center;
-  background-color: #ff0;
+  background-color: #ff6;
   height: 1000px;
+}
+div.index div.container-fluid div.row div#left p.ltitle1 {
+  font-family: 'cwTeXHei', sans-serif;
+  font-size: 52px;
+  margin: 200px 0 10px 300px;
+  font-weight: bold;
+}
+div.index div.container-fluid div.row div#left p.ltitle2 {
+  font-family: 'cwTeXHei', sans-serif;
+  font-size: 52px;
+  margin: 0 0 0 300px;
+  font-weight: bold;
+}
+div.index div.container-fluid div.row div#left p.contain {
+  font-family: 'cwTeXHei', sans-serif;
+  font-size: 40px;
+  margin: 30px 0 0 300px;
+  font-weight: bold;
 }
 div.index div.container-fluid div.row div#right {
   padding: 30px 20px;
@@ -16,7 +33,11 @@ div.index div.container-fluid div.row div#right {
   font-size: 20px;
   line-height: 150%;
 }
-div.index div.container-fluid div.row div#right p#about:hover {
+div.index div.container-fluid div.row div#right a {
+  color: #fff;
+  line-height: 250%;
+}
+div.index div.container-fluid div.row div#right a#about:hover {
   color: #f00;
 }
 div.index div.container-fluid div.row div#right p#subtitle {
